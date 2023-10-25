@@ -1,6 +1,6 @@
-#GESTIONNAIRE DE PROJET DE Lux
+#GESTIONNAIRE DE PROJET DE Lux,
 
-Etudiant : VEGBA Lux
+Etudiant : VEGBA Lux,
 
 - J'ai eu un peu de retard donc j'ai pas eu le temps de me trouver un groupe j'ai direct foncé sur le projet.
 

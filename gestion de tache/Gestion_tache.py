@@ -2,6 +2,8 @@ import json
 import os
 import tkinter as tk
 
+
+#pour que le fichier se charge dans le repertoire du fichier py du projet 
 script_dir = os.path.dirname(os.path.abspath(__file__))
 json_path = os.path.join(script_dir, "taches.json")
 taches = []
@@ -59,7 +61,7 @@ def afficher_dans_terminal():
 # création de la fenêtre pour l'interface :)
 fenetre = tk.Tk()
 fenetre.title("GESTIONNAIRE DE TÂCHES DE LUX")
-fenetre.geometry("500x400")
+fenetre.geometry("500x500")
 
 # ajout des tâches :)
 placeholder = tk.Label(fenetre, text="Nom de la tâche:")
