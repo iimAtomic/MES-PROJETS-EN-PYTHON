@@ -8,10 +8,11 @@ def valider_inscription():
     print("Pseudo"+pseudo)
     print("Mot de passe :"+ mdp)
     print("E-mail :"+email)
-
 fenetre = tk.Tk()
 fenetre.title("Inscription")
 fenetre.geometry("400x400")
+
+
 label_pseudo = tk.Label(fenetre, text="Pseudo :")
 label_pseudo.pack()
 entry_pseudo = tk.Entry(fenetre)
