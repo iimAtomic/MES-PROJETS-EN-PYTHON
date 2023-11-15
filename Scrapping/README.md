@@ -14,9 +14,8 @@ Installez les modules requis avec la commande suivante :
 Utilisation :
 ```bash
 Clonez le dépôt :
-Copy code
-git clone 
-cd votre-repo
+git clone https://github.com/iimAtomic/MES-PROJETS-EN-PYTHON.git
+cd ...
 
 ```
 Exécutez le script :
