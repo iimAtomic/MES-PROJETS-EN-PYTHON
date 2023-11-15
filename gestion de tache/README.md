@@ -18,8 +18,8 @@ Ce gestionnaire de tâches simple a été créé en utilisant Tkinter et permet 
 1. **Clonez le dépôt :**
 
    ```bash
-   git clone https://github.com/votre-utilisateur/votre-repo.git
-   cd votre-repo
+   git clone https://github.com/iimAtomic/MES-PROJETS-EN-PYTHON.git
+   cd ...
 Exécutez le script :
 
 python gestionnaire_taches.py
