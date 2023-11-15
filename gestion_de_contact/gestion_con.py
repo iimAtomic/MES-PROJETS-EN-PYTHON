@@ -92,14 +92,21 @@ bouton_ajout.pack()
 
 
 bouton_voir = tk.Button(fenetre , text="voir" , command=afficher_dans_liste)
-bouton_voir.pack()
+
 
 bouton_supp = tk.Button(fenetre , text="supprimer" , command=supprimer_contact)
-bouton_supp.pack()
+
 
 # Bouton pour afficher dans le terminal
 bouton_afficher = tk.Button(fenetre , text="Afficher dans le terminal" , command=afficher_dans_terminal)
-bouton_afficher.pack()
+bouton_ajout = tk.Button(fenetre, text="Ajouter", command=ad_contacts)
+bouton_ajout.pack(side=tk.LEFT)
+
+bouton_voir = tk.Button(fenetre, text="Voir", command=afficher_dans_liste)
+bouton_voir.pack(side=tk.LEFT)
+
+bouton_afficher = tk.Button(fenetre, text="Afficher dans le terminal", command=afficher_dans_terminal)
+bouton_afficher.pack(side=tk.LEFT)
 
 # affichage des tâches :)
 frame_listbox = tk.Frame(fenetre, padx=20, pady=20)
