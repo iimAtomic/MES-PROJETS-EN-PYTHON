@@ -1,14 +1,33 @@
-#GESTIONNAIRE DE PROJET DE Lux,
+# Gestionnaire de Tâches de Lux
 
-Etudiant : VEGBA Lux,
+Ce gestionnaire de tâches simple a été créé en utilisant Tkinter et permet d'ajouter, de marquer comme terminées, de supprimer et d'afficher des tâches avec des noms, des descriptions et des dates limites.
 
-- J'ai eu un peu de retard donc j'ai pas eu le temps de me trouver un groupe j'ai direct foncé sur le projet.
+## Fonctionnalités
 
-      Le code permet d'ajouter des taches ;
-      Une interface utilisateur a été concu
-      Lorsque l'utilisateur entre une description et une date d'échéance et clique sur "Ajouter", la tâche est  ajoutée à la liste.
-      De les passer au vert quand elles sont terminé de les supprimer Le tout  avec des boutons;
-      Quand une ligne est selectionné , l'intégralité des données s'affiche dans le terminale de l'iDE;
-      Utilisation de la bibliothèque Tkinter pour créer l'interface utilisateur.
-      un système de stockage de données en utilisant json a été implémenter pour stocker et charger les données entrer par l'utilisateur
+- Ajout de tâches avec nom, description et date limite.
+- Marquage des tâches comme terminées.
+- Suppression de tâches.
+- Affichage des détails de la tâche dans le terminal.
 
+## Prérequis
+
+- Python 3.x
+
+## Utilisation
+
+1. **Clonez le dépôt :**
+
+   ```bash
+   git clone https://github.com/votre-utilisateur/votre-repo.git
+   cd votre-repo
+Exécutez le script :
+
+python gestionnaire_taches.py
+Gérez vos tâches ! Ajoutez, terminez, supprimez et affichez dans le terminal.
+
+Fonctions
+ad_taches(): Ajoute une tâche à la liste.
+tache_finit(): Marque la tâche sélectionnée comme terminée.
+supprimer_tache(): Supprime la tâche sélectionnée.
+afficher_dans_terminal(): Affiche les détails de la tâche sélectionnée dans le terminal.
+sauvegarder_taches(): Sauvegarde les tâches dans un fichier JSON.
